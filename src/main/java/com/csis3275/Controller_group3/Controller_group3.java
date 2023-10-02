@@ -13,5 +13,12 @@ public class Controller_group3 {
 		
 		return "Page.html";
 	}
+	
+	
+	@GetMapping("/carlos")
+	public String showCarlosPage(Model model) {
+		
+		return "carlos.html";
+	}
 
 }
