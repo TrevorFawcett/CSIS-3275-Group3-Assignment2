@@ -13,5 +13,15 @@ public class Controller_group3 {
 		
 		return "Page.html";
 	}
+	
+	
+	
+	@GetMapping("/carlos")
+	public String renderCarlos(Model model) {
+		model.addAttribute(new Carlos_group3())
+		
+		
+		return "carlos";
+	}
 
 }
